@@ -2,27 +2,27 @@
 
 # Analysis of My Youtube Watch History
 ## Introduction
-My motivation for this project is to better understand my YouTube viewing habits and explore patterns in my Youtube history. I hope to identify the types of videos I watch the most and how my engagement with certain content changes over time. This analysis can help me understand whether I spend more time on YouTube than I intend, how to optimize my viewing choices, and find new content based on my historical preferences.
+My main motivation for this project is to better understand my YouTube viewing habits and explore patterns in my Youtube history. I want to identify the types of videos I watch the most and generally the time I spend watching Youtube videos daily. This analysis can help me understand whether I spend more time on YouTube than I intend, how to optimize my viewing choices, and find new content based on my historical preferences.
 
 ## Data Collection
-The data for this project was collected through Google Takeout from which I downloaded the data of my Youtube account. 
+The data for this project was collected through Google Takeout.
 The data I downloaded includes:
 
-* Watch History: Information about the videos I've watched, including video titles, timestamps, and video duration.  
+* Watch History: Information about the videos I've watched, including video titles, and timestamps.  
 * Subscriptions: A list of all the YouTube channels I am subscribed to, along with subscription dates.  
 * Likes/Dislikes: Data on the videos I have liked or disliked.  
   
-The downloaded data is stored in JSON format, which will be parsed and analyzed using Python.
+The downloaded data is parsed and analyzed using Python.
 
 ## Data Preprocessing
-I conducted the following preprocessing steps to organize data:  
-* Data Cleaning: I removed irrelevant or incomplete entries from my YouTube data.
+I conducted the following preprocessing steps to organize the data:  
+* Data Cleaning: I removed irrelevant and incomplete entries from my YouTube data.
 * Datetime Parsing: Timestamps were converted into Python datetime objects to make time-based analysis easier.
 * Feature Extraction: Extracted relevant features like video categories, video length, video titles, and like/dislike counts.
-* Data Structuring: The JSON data was converted into structured pandas dataframe for easier analysis.
+* Data Structuring: The data was converted into structured pandas dataframe for easier analysis.
 
 ## Analysis
-The following analyses were performed on my YouTube data:
+I performed the following analyses on my YouTube data:
 
 * Watch History Analysis:  
 I analyzed the number of videos watched per day, week, and month. The total watch time was calculated, and trends were visualized using time series plots to observe any significant changes in viewing habits.
