@@ -2,7 +2,7 @@
 
 # Analysis of My Youtube Data
 ## Introduction
-My main motivation for this project is to better understand my YouTube viewing habits and explore patterns in my Youtube history. I want to identify the types of videos I watch the most and generally the time I spend watching Youtube videos daily. This analysis can help me understand whether I spend more time on YouTube than I intend, how to optimize my viewing choices, and find new content based on my historical preferences.
+My main motivation for this project is to better understand my YouTube viewing habits and explore patterns in my Youtube history. I want to identify the types of videos I watch the most and the time I spend watching Youtube videos daily. This analysis can help me understand whether I spend more time on YouTube than I intend, how to optimize my viewing choices, and find new content based on my historical preferences.
 
 ## Data Collection
 The data for this project was collected through Google Takeout.
