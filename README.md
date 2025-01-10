@@ -23,8 +23,7 @@ I conducted the following preprocessing steps to structure the data:
 I have conducted the subsequent analyses on the YouTube Data:
 
 * Watch History Analysis:  
-Firstly, . The overall watch time was calculated and visualized through time series plots for the observation of any sharp changes in the viewing patterns.
-
-* Engagement Analysis:  
-I analyzed how video length correlates with my watch time and engagement, comparing videos I watched fully versus those I skipped.
+Firstly, I extracted the years of the videos from the data to classify the videos as watched in 2023 or 2024. 
+Then, the number of videos watched in 2023 and 2024 was calculated to visualize my increasing YouTube usage between the years.
+This step is followed by classifying the videos that I watched as short or long related to two constraints. Since I did not have direct access to the durations of the videos in the dataset, I classified them as short videos if they included a #shorts tag in their title or my watch duration was less than 60 seconds. My watch duration was calculated by taking the difference between the times I started watching two successive videos. I calculated the number of short and long videos in 2023 and 2024 and visualized them using a bar chart as well. Lastly, by conducting a one-tailed t-test I compared the average duration of videos that I watched in 2023 and 2024 to test the null hypothesis that there is no difference between the average durations.
 
